@@ -1,0 +1,49 @@
+.table-wrapper {
+    position: relative;
+  }
+  
+  .top-buttons, .left-buttons {
+    position: absolute;
+    display: flex;
+    margin: 1px;
+  }
+  
+  .top-buttons button,
+  .left-buttons button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .top-buttons {
+    left: 30px;
+  }
+  
+  .left-buttons {
+    top: 30px;
+    flex-direction: column;
+  }
+  
+  
+   td {
+      
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin-right: 1px;
+  
+  
+  } 
+  
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+  }
+  
+  
+   td.new {
+    border: 1px solid black;
+  
+  } 
+  
